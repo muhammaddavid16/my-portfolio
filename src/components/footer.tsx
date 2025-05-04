@@ -1,7 +1,7 @@
 export function Footer() {
     return (
         <footer className="text-center py-4">
-            <span className="text-neutral-600 dark:text-neutral-400 text-sm">
+            <span className="text-neutral-600 dark:text-neutral-400 text-sm font-medium leading-none">
                 Made with ❤️ by <span className="font-semibold text-black dark:text-white">David</span>
             </span>
         </footer>

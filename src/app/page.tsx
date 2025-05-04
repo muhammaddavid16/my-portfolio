@@ -1,22 +1,24 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
 export default function Home() {
     return (
-        <>
-            <main className="px-4">
-                <div className="max-w-6xl h-full mx-auto grid place-items-center">
-                    <div className="text-center">
-                        <h1 className="font-bold text-5xl">Hello, I'm David 👋</h1>
-                        <p className="max-w-3xl text-neutral-600 dark:text-neutral-400 text-sm sm:text-lg mt-10">
-                            I’m passionate about building{" "}
-                            <span className="font-semibold text-black dark:text-white">clean</span>,{" "}
-                            <span className="font-semibold text-black dark:text-white">user-focused software</span> and
-                            ensuring <span className="font-semibold text-black dark:text-white">high quality</span>{" "}
-                            through thoughtful{" "}
-                            <span className="font-semibold text-black dark:text-white">development</span> and{" "}
-                            <span className="font-semibold text-black dark:text-white">testing</span>.
+        <main className="px-4">
+            <div className="max-w-6xl h-full mx-auto grid place-items-center">
+                <div className="text-center">
+                    <h1 className="font-extrabold text-4xl lg:text-5xl tracking-tight">Hello, I'm David</h1>
+                    <div className="max-w-3xl mt-6">
+                        <p className="leading-7">
+                            I'm a Quality Assurance Automation Engineer based in Jakarta with a background in Computer
+                            Science from Universitas Nusamandiri.
                         </p>
+
+                        <Button className="mt-4 rounded-full" asChild>
+                            <Link href="/about">More About Me</Link>
+                        </Button>
                     </div>
                 </div>
-            </main>
-        </>
+            </div>
+        </main>
     );
 }
