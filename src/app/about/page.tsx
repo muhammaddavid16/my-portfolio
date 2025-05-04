@@ -15,7 +15,7 @@ export default function AboutPage() {
                 {/* Bio Section */}
                 <section className="py-8">
                     <h3 className="text-2xl font-semibold tracking-tight">About Me</h3>
-                    <div className="mt-4 space-y-4">
+                    <div className="text-justify mt-4 space-y-4">
                         <p className="leading-7">
                             I’m David, a Quality Assurance Automation Engineer based in Jakarta with a background in
                             Computer Science from Universitas Nusamandiri. I specialize in automating software testing

@@ -22,9 +22,9 @@ export function SkillsSection() {
     return (
         <section className="py-8">
             <h3 className="text-2xl font-semibold tracking-tight">Skills</h3>
-            <div className="mt-4">
+            <div className="mt-4 space-y-4">
                 {Object.entries(skillCategories).map(([category, skills], idx) => (
-                    <div key={idx} className="mt-4 space-y-2">
+                    <div key={idx} className="space-y-2">
                         <div className="text-lg font-medium">{category}</div>
                         <div className="flex flex-wrap gap-2">
                             {skills.map((skill, i) => (

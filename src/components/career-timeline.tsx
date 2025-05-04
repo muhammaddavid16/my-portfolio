@@ -27,15 +27,15 @@ export function CareerTimeline() {
     return (
         <section className="py-8">
             <h3 className="text-2xl font-semibold tracking-tight">Career</h3>
-            <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="mt-4 space-y-4 grid grid-cols-1 md:grid-cols-2 gap-4">
                 {careerData.map((item, index) => (
-                    <div key={index} className="mt-4">
+                    <div key={index}>
                         <div className="flex justify-between items-center gap-4">
                             <div className="text-lg font-semibold">{item.title}</div>
                             <Badge variant="secondary">{item.period}</Badge>
                         </div>
                         <p className="text-sm text-muted-foreground">{item.company}</p>
-                        <p className="leading-7 mt-2">{item.description}</p>
+                        <p className="leading-7 text-justify mt-2">{item.description}</p>
                     </div>
                 ))}
             </div>
