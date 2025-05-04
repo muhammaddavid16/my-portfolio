@@ -11,7 +11,7 @@ export function Navbar() {
     const navItems = [{ name: "About", href: "/about" }];
 
     return (
-        <nav className="bg-background/25 backdrop-blur-md px-4 border-b border-dashed sticky top-0 z-50">
+        <nav className="bg-background/10 backdrop-blur-sm px-4 border-b sticky top-0 z-50">
             <div className="max-w-6xl h-14 mx-auto flex justify-between items-center">
                 <div className="flex gap-6">
                     <Link href="/" className="font-bold text-lg tracking-tight">
