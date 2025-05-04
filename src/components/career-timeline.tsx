@@ -11,14 +11,14 @@ const careerData: CareerItem[] = [
     {
         title: "Quality Assurance Automation Engineer",
         company: "PT Bank Mandiri (Persero) Tbk.",
-        period: "2023 – Present",
+        period: "2023 ~ Present",
         description:
             "Develop and maintain automated test scripts for web, desktop and mobile applications using Katalon Studio or UiPath. Collaborate closely with developers and product teams to ensure software quality and improve testing efficiency.",
     },
     {
         title: "Web Developer Intern",
         company: "PT Ito Seisakusho Armada",
-        period: "2022 – 2023",
+        period: "2022 ~ 2023",
         description: "Worked on the development of a website for a company using Laravel and Tailwind CSS.",
     },
 ];

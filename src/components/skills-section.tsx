@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 
 const skillCategories = {
-    "Automation Testing": ["UiPath", "Katalon Studio"],
+    "Automation Testing": ["Katalon Studio", "UiPath"],
     "Web Development": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "ShadCN UI"],
     "Backend & Database": [
         "PHP",

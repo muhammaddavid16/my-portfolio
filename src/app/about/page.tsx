@@ -19,8 +19,8 @@ export default function AboutPage() {
                         <p className="leading-7">
                             I’m David, a Quality Assurance Automation Engineer based in Jakarta with a background in
                             Computer Science from Universitas Nusamandiri. I specialize in automating software testing
-                            processes for web, mobile, and desktop applications using tools like UiPath and Katalon
-                            Studio.
+                            processes for web, mobile, and desktop applications using tools like Katalon Studio or
+                            UiPath.
                         </p>
                         <p className="leading-7">
                             Currently, I work at Bank Mandiri, where I focus on developing and maintaining automated
